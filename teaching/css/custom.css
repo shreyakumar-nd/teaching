@@ -1,0 +1,240 @@
+/* color palette ------------------
+
+   light grey #e3e3e3
+   dark grey  #c9c9c9
+   accent blue  #9ad3de
+   link blue #89bdd3
+   accent teal #f1f6f6
+   bootstrap link blue #337ab7
+   dark blue #002b5b
+ */
+
+
+/*Google roboto font-face */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500');
+p,ul,li,sub,sup,tr,td,dd  {
+   font-family: 'Roboto', sans-serif;
+   font-weight:300;
+   font-size:1.6rem;
+}
+
+dt {
+   font-weight:400;
+   font-size:1.6rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   font-weight:500;
+   color:#667467;
+}
+
+h2 {
+   font-weight: 300;
+}
+
+
+h4 {
+   margin-top:3rem;
+   color:#667467;
+}
+
+body {
+   padding:5rem;
+}
+
+p {
+   font-size:1.6rem;
+}
+
+h1#header-designation a, h1#header-designation a small, h1#header-designation a sup {
+   color:#002b5b;
+   margin-top:0;
+   font-weight: 300;
+}
+
+h1#header-designation a {
+   font-size:4rem;
+   color:#667467
+}
+
+a, a:link, a:visited, a:hover, a:active {
+   color: #e05915;
+}
+
+div.jumbotron {
+   /*background: #f7fffd;  this one was shreya's green that she wanted to replace */
+   background: #f1f6f6;
+   margin-top:3rem;
+}
+
+div.jumbotron td  {
+   font-size: 1.6rem;
+}
+
+div.jumbotron p, div.jumbotron ul li {
+   font-size: 1.7rem;
+}
+
+
+div.btn-toolbar a {
+   font-size: 150%;
+   color: #ffffff;
+   background:#e05915;
+   border:none;
+}
+
+div.btn-toolbar a:hover {
+   color: #ffffff;
+   background:#667467;
+}
+
+table#contact-info-table {
+
+   margin: 2rem 1rem 0rem 1rem;
+}
+
+table#contact-info-table tr td {
+   border:0px;
+}
+
+
+table#contact-table-first-row td#contact-left {
+   width:5%;
+}
+
+table#contact-table-first-row td#contact-right {
+   width: 95%;
+}
+
+img#shreya-pic {
+   width:250px;
+   border: 1px solid #c9c9c9;
+   padding:4px;
+}
+
+footer {
+   margin-top: 3rem;
+}
+
+table.pubs tr td {
+   text-indent:-3rem;
+   padding-left:6rem;
+   border-top:0px !important;
+}
+
+
+.page-callout {
+   padding:2rem;
+   background: #f1f6f6;
+}
+
+ul#research-interests li {
+   margin-bottom: 1.1rem;
+}
+dd {
+   margin-bottom:1.5rem;
+}
+
+dt span {
+   color:#777777;
+}
+
+.nav-pills {
+   margin-top:25px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus {
+   color: #e05915;
+   background: #fcf6f2;
+}
+
+.nav-pills>li.active>a:hover {
+   background:#ecf0f1;
+   color: #e05915;
+}
+
+.navbar {
+   min-height: 120px;
+   margin-bottom: 40px;
+   padding-top:25px;
+   background: #ffffff;
+}
+
+.navbar-default {
+   border-color:#ffffff;
+   border-bottom:1px solid #ececec;
+}
+
+hr {
+   margin:5rem 0rem;
+}
+
+dl {
+   margin:2rem 0rem 2rem 2rem;
+}
+
+
+.grant {
+   padding:2rem;
+   border-radius:0px 25px 25px 25px;
+}
+
+.grant p {
+   margin:1.5rem 0rem;
+}
+
+.hr-card {
+   margin: 1rem 0rem;
+   border: 1px solid #ececec;
+}
+
+
+@media only screen and (max-width: 500px) {
+    p,ul,li,sub,sup,tr,td,dd, .jumbotron p {
+        font-size:12px;
+    }
+}
+
+
+h5.teaching-year {
+   margin-left: 1.7rem;
+   margin-top: 1.5rem;
+}
+
+
+
+.navbar-default .navbar-brand {
+   font-size: 4rem;
+   font-weight: 300;
+   color: #667467;
+}
+
+.nav.navbar-nav li {
+   margin-right:1.5rem;
+}
+
+.navbar-default .navbar-nav>.active>a {
+   background: #fcf6f2;
+   color: #e05915;
+   border-radius: 5px;
+}
+
+.navbar-default .navbar-nav>li:hover {
+   background: #f1f6f6;
+   color: #999999;
+   border-radius: 5px;
+}
+
+.navbar-default .navbar-nav>.active>li:hover {
+   background: #fcf6f2;
+   color: #e05915;
+}
+
+.upjump-the-boogie {
+   margin-top:8rem;
+}
+
+.tool-cards {
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
