@@ -22,20 +22,23 @@
     margin-top: 40px;
     /* outline: 1px solid #000; */
   }
-  </style>
+  html {
+            scroll-behavior: smooth; /* Optional: smooth scrolling in modern browsers */
+        }
+    </style>
 
 </head>
 
 <body>
   <div class="container" id="bsr-wrapper">
 
-    <h1>Student Projects</h1>
+    <h1>Student Projects - Fall 2025</h1>
     <p>The following is a listing of demos of student projects done in the Fall 2025 Principles of Computing course.
       The students found their choice of data source from resources online and decided how they want to examine, analyze and visualize the data.
     </p>
 
     <!-- table stuff starts  -->
-        <div class="row">
+        <div class="row" id="top">
 
           <div class="table-responsive">
 
@@ -590,6 +593,8 @@ The major insights we discovered from this project is that there is no direct tr
 
 
       </div> <!-- end of main div with all visual elements  -->
+
+      <a href="#top" style="position: fixed; bottom: 20px; right: 20px;">Back to Top</a>
 
       <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
       <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
