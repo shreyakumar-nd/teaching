@@ -1,0 +1,16 @@
+div form button{
+	display:none !important;
+}
+
+
+label#pLengthSug1,#pLengthSug2,label#lifetimeSug1,label#lifetimeSug2,label#lockoutSug1,label#lockoutSug2,label#guessesSug2,label#guessesSug1{
+	display:none !important;
+}
+
+div form input#hideCalculation{
+	display:none !important;
+}
+
+
+
+
